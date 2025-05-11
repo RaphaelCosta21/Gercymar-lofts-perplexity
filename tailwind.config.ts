@@ -38,9 +38,6 @@ const config: Config = {
         sans: ["var(--font-inter)"],
         display: ["var(--font-montserrat)"],
       },
-      backgroundImage: {
-        "beach-pattern": "url('/beach-pattern.svg')",
-      },
     },
   },
   plugins: [],
