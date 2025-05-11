@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --swiper-theme-color: #0ea2e9;
+  --swiper-navigation-size: 24px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-gray-800;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-display;
+}
+
+.container {
+  @apply px-4 mx-auto;
+  max-width: 1280px;
+}
+
+.btn-primary {
+  @apply bg-ocean-blue-500 hover:bg-ocean-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300;
+}
+
+.btn-secondary {
+  @apply bg-sand-400 hover:bg-sand-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300;
+}
+
+.btn-outline {
+  @apply border-2 border-ocean-blue-500 text-ocean-blue-500 hover:bg-ocean-blue-50 font-semibold py-2.5 px-6 rounded-lg transition-colors duration-300;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-8 text-center;
+}
+
+.section-subtitle {
+  @apply text-xl md:text-2xl font-semibold mb-4 text-gray-800;
+}
+
+/* Custom form styling */
+.form-input {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ocean-blue-300 focus:border-ocean-blue-500 outline-none transition;
+}
+
+.form-label {
+  @apply block text-sm font-medium text-gray-700 mb-1;
+}
+
+/* Card styling */
+.card {
+  @apply bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg;
+}
+
+/* Hero section styling */
+.hero-section {
+  @apply relative overflow-hidden;
+  height: calc(100vh - 80px);
+  min-height: 500px;
+}
+
+/* Gradient overlays */
+.overlay-gradient {
+  @apply absolute inset-0 bg-gradient-to-b from-black/30 to-black/70 flex flex-col justify-center items-center text-white px-6;
+}
+
+/* Animation classes */
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

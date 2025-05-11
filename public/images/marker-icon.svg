@@ -1,0 +1,16 @@
+<svg width="40" height="48" viewBox="0 0 40 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Corpo do marcador -->
+  <path d="M20 0C8.954 0 0 8.954 0 20C0 32.842 17.945 46.684 18.702 47.275C19.094 47.588 19.547 47.755 20 47.755C20.453 47.755 20.906 47.588 21.298 47.275C22.055 46.684 40 32.842 40 20C40 8.954 31.046 0 20 0Z" fill="#0EA2E9"/>
+  
+  <!-- Sombra na parte inferior do marcador -->
+  <path d="M20 40C31.046 40 40 31.046 40 20C40 17.023 39.328 14.203 38.126 11.688C34.452 27.109 8.203 35.172 3.359 36.953C7.031 38.906 11.406 40 16.172 40H20Z" fill="#036BA1"/>
+  
+  <!-- Círculo interno -->
+  <circle cx="20" cy="20" r="12" fill="white"/>
+  
+  <!-- Edifício/casa simplificada representando o loft -->
+  <path d="M20 12L14 16V27H26V16L20 12Z" fill="#036BA1"/>
+  <path d="M22 21H18V27H22V21Z" fill="white"/>
+  <path d="M15 17H17V19H15V17Z" fill="white"/>
+  <path d="M23 17H25V19H23V17Z" fill="white"/>
+</svg>
