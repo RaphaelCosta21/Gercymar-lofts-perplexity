@@ -47,15 +47,13 @@ const Navbar = () => {
       <div className="container flex justify-between items-center">
         <Link href="/" className="relative z-10 flex items-center">
           <Image
-            src="/logo-gercymar.svg"
+            src={scrolled ? "/images/logo-gercymar.png" : "/images/logo-gercymar-white.png"}
             alt="GercyMar Lofts"
             width={150}
             height={40}
-            className={scrolled ? "h-10 w-auto" : "h-12 w-auto"}
+            className={scrolled ? "h-16 w-auto" : "h-16 w-auto"}
           />
-          <span className="hidden md:block text-xs text-gray-500 ml-2 font-light italic">
-            Seu paraíso em Arraial do Cabo
-          </span>
+        
         </Link>
 
         {/* Mobile menu button */}

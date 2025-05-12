@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Image
-              src="/logo-gercymar-white.svg"
+              src="/images/logo-gercymar-white.png"
               alt="GercyMar Lofts"
               width={180}
               height={50}

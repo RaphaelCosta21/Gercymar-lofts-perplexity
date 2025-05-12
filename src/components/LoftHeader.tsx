@@ -12,7 +12,7 @@ interface LoftHeaderProps {
 const LoftHeader = ({ loft }: LoftHeaderProps) => {
   return (
     <div className="bg-ocean-blue-800 text-white">
-      <div className="container py-8">
+      <div className="container pt-24 pb-8">
         <h1 className="text-2xl md:text-3xl font-bold mb-2">
           Loft {loft.nome}
         </h1>
